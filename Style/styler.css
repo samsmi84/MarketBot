@@ -1,0 +1,11 @@
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+body {
+    background-image: url("../donut.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
