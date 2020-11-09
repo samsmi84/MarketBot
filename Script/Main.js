@@ -47,7 +47,7 @@ async function processAnswer(question) {
             return d.question.indexOf(question) > -1
         })
 
-        const answers = allQuestions[0] != null ? allQuestions[0].answer.map(a => `<li>${a}</li>`).join("") : `<li>No Answer</li>`
+        const answers = allQuestions[0] != null ? allQuestions[0].answer.map(a => `<li>${a}</li>`).join("") : "<li>No Answer</li>"
 
         return `${answers}`
     })
