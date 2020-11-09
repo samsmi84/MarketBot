@@ -1,0 +1,31 @@
+[
+    {
+        "question" : "Where is it?",
+        "answer" : ["It is at the Hamilton Christian School."]
+    },
+
+    {
+        "question" : "When is it?",
+        "answer" : ["Tuesday 20th of October (3pm - 5pm)."]
+    },
+
+    {
+        "question" : "What is available?",
+        "answer" : ["Food (Donuts, Pancakes, Churos, Sausages, Cotton Candy, Popcorn)."]
+    },
+
+    {
+        "question" : "How can I pay for things?",
+        "answer" : ["You can only pay in cash."]
+    },
+
+    {
+        "question" : "What is the market for?",
+        "answer" : ["A year 10 learning opportunity to see how businesses run and operate."]
+    },
+
+    {
+        "question" : "Is the food delicious?",
+        "answer" : ["Yes! All the food is going to be delicious!"]
+    }
+]
