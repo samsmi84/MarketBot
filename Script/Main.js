@@ -1,28 +1,28 @@
-//$(document).ready(function(){
-//    $(".chat_on").click(function(){
-//        $(".Layout").toggle();
-//        $(".chat_on").hide(300);
-//    });
-//    
-//       $(".chat_close_icon").click(function(){
-//        $(".Layout").hide();
-//           $(".chat_on").show(300);
-//    });
-//    
-//});
+$(document).ready(function(){
+    $(".chat_on").click(function(){
+        $(".Layout").toggle();
+        $(".chat_on").hide(300);
+    });
+    
+    $(".chat_close_icon").click(function(){
+        $(".Layout").hide();
+        $(".chat_on").show(300);
+    });
+    
+});
 
 let allQuestions = []
 
-const submit = document.querySelector('#send_button')
+const submit = document.querySelector('#sendicon')
 submit.addEventListener('click', async () => {
 
-    let userInput = document.querySelector('#input_field').value
+    let userInput = document.querySelector('#Input_field').value
 
     let answers = await processAnswer(userInput)
 
     console.log(answers)
 
-    let msgbox = document.querySelector('#Message_list')
+    let msgbox = document.querySelector('#Messages_list')
 
     msgbox.innerHTML += `
         <div class="q_a_container">
