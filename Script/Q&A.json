@@ -27,5 +27,15 @@
     {
         "question" : "Is the food delicious?",
         "answer" : ["Yes! All the food is going to be delicious!"]
+    },
+
+    {
+        "question" : "Hello.",
+        "answer" : "Hi person."
+    },
+
+    {
+        "question" : "What is your name?",
+        "answer" : "My name is... Samuel."
     }
 ]
