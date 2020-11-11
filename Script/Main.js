@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 let allQuestions = []
 
-const submit = document.querySelector('#sendicon')
+const submit = document.querySelector('#send_button')
 submit.addEventListener('click', async () => {
 
     let userInput = document.querySelector('#Input_field').value
